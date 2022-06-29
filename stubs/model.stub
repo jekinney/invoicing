@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Models;
+namespace {{ namespace }};
 
-use App\Queries\InvoiceStatuses;
+use App\Queries;
 
-class InvoiceStatus extends InvoiceStatuses
+class {{ class }} extends Model
 {
     ////// Set up
 
@@ -14,6 +14,4 @@ class InvoiceStatus extends InvoiceStatuses
     * @var array
     */
     protected $guarded = ['id'];
-
-    
 }
